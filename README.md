@@ -6,9 +6,16 @@ Objectives:
 
 Sometimes you may need to check multiple conditions.  One option is to nest if statements within if statements, but you can also check conditional statements using the operators 
 
+
+Open up the file called example0.py to see what we mean by a nested operator.  
 Open up the file called example1.py to see how "and" operators work.  
 Open up the file called example2.py to see how "or" operators work.  
 Open up the file called example3.py to see how brackets and order of operations work  
+
+You might want to watch these Youtube videos for more explanation:  
+https://www.youtube.com/watch?v=W7luvtXeQTA  
+https://www.youtube.com/watch?v=H_NUhJ7C6yM  
+
 
 ### 3 Debugging programs
 ### 4 Tasks

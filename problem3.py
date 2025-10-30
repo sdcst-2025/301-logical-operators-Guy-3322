@@ -30,3 +30,32 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+
+number_1 = float(input("Input a number:"))
+number_2 = float(input("Input a second number:"))
+number_3 = float(input("Input a third number:"))
+
+all_numbers = (number_1, number_2, number_3)
+
+largest = max(all_numbers)
+smallest = min(all_numbers)
+print(largest)
+print(smallest)
+if not number_1 == largest and not number_1 ==smallest:
+    middle = number_1
+else:
+    if not number_2 == largest and not number_2 == smallest:
+        middle = number_2
+    else:
+        middle = number_3
+        
+print(middle)
+
+largest_s = largest**2
+smallest_s = smallest**2
+middle_s = middle**2
+
+if smallest_s + middle_s == largest_s:
+    print(f"{smallest}, {middle} and {largest} do form a Pythagorean triple")
+else:
+    print(f"{smallest}, {middle} and {largest} do not form a Pythagorean triple")
